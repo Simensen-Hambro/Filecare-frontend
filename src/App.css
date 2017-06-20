@@ -1,0 +1,44 @@
+.Container {
+	width: 70%;
+	margin: 20px 15%;
+}
+
+.Icon {
+	color: red;
+	font-size: 1.2rem;
+}
+
+.Loading-icon {
+	color: #2196f3;
+	height: 50px;
+	display: block;
+	margin: 50px auto;
+	animation: ROTATE-ANIMATION 3s linear infinite;
+
+}
+
+.Link {
+	text-decoration: none;
+	color: #2196f3;
+}
+
+.Link:hover {
+	text-decoration: underline;
+}
+
+.CurrentLink {
+	color: #666666;
+}
+
+.CurrentLink:hover {
+	text-decoration: none;
+}
+
+@keyframes ROTATE-ANIMATION {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

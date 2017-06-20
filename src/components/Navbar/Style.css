@@ -1,0 +1,19 @@
+nav {
+	background: #2196F3;
+	padding: 15px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+	color: white;
+}
+
+.NavLogo {
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.LoginLogoutLink a {
+	float: right;
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+}

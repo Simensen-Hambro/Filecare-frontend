@@ -1,0 +1,15 @@
+.Card {
+	background-color: white;
+	margin-top: 50px;
+	padding: 10px;
+	width: 100%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+	color: #666666;
+
+}
+
+.CardTitle {
+	margin: 5px 10px;
+	font-weight: 500;
+	color: #666666;
+}

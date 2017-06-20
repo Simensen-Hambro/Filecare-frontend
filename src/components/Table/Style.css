@@ -1,0 +1,42 @@
+table {
+	width: 100%;
+	background-color: #F5F5F5;
+	padding: 10px;
+	font-size: 15px;
+	table-layout: fixed;
+}
+
+table thead {
+	text-align: left;
+}
+
+th {
+	font-weight: 300;
+	color: #666666;
+	padding-bottom: 5px;
+}
+
+td {
+	border-top: 1px solid #dddddd;
+	font-weight: 300;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	font-size: 0.8rem;
+	color: #666666;
+}
+
+.BreadCrumb {
+	padding: 10px;
+	background-color: #F5F5F5;
+	margin-bottom: 20px;
+	color: #666666;
+	font-weight: 400;
+}
+
+.BreadCrumb .Link + .Link::before {
+	  display: inline-block;
+	  padding-right: 0.5rem;
+	  padding-left: 0.5rem;
+	  color: #636c72;
+	  content: "/";
+}
